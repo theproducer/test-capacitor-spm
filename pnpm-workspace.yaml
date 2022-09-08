@@ -1,0 +1,4 @@
+packages:
+  - 'core-capacitor'
+  - 'core-swift'
+  - 'example-app'
