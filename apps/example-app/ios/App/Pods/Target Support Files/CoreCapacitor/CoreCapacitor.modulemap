@@ -1,0 +1,6 @@
+framework module CoreCapacitor {
+  umbrella header "CoreCapacitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

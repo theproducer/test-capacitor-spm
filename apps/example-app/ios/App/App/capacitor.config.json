@@ -1,0 +1,11 @@
+{
+	"appId": "io.ionic.example",
+	"appName": "ExampleApp",
+	"bundledWebRuntime": false,
+	"webDir": "dist",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	}
+}

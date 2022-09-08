@@ -1,0 +1,4 @@
+module core_swift {
+    header "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core_swift.build/core-swift-Swift.h"
+    requires objc
+}

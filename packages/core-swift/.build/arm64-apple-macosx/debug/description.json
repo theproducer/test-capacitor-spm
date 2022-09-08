@@ -1,0 +1,145 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core-swiftPackageTests.xctest/Contents/MacOS/core-swiftPackageTests",
+      "productName" : "core-swiftPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.core-swift-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/Sources/core-swift/core_swift.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "core_swift",
+      "moduleOutputPath" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core_swift.swiftmodule",
+      "objects" : [
+        "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core_swift.build/core_swift.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core_swift.build/core-swift-Swift.h",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core_swift.build/core_swift.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core_swift.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/Sources/core-swift/core_swift.swift"
+      ],
+      "tempsPath" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core_swift.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.core-swiftTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/Tests/core-swiftTests/core_swiftTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core_swift.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "core_swiftTests",
+      "moduleOutputPath" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core_swiftTests.swiftmodule",
+      "objects" : [
+        "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core_swiftTests.build/core_swiftTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core_swiftTests.build/core_swiftTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core_swiftTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/Tests/core-swiftTests/core_swiftTests.swift"
+      ],
+      "tempsPath" : "/Users/jpender/Ionic/test-capacitor-spm/packages/core-swift/.build/arm64-apple-macosx/debug/core_swiftTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

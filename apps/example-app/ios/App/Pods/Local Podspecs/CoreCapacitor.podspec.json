@@ -1,0 +1,23 @@
+{
+  "name": "CoreCapacitor",
+  "version": "0.0.1",
+  "summary": "Hello world",
+  "license": "MIT",
+  "homepage": "git+http://github.com.git",
+  "authors": "Joseph Pender",
+  "source": {
+    "git": "git+http://github.com.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "dependencies": {
+    "Capacitor": [
+
+    ]
+  },
+  "swift_versions": "5.1",
+  "swift_version": "5.1"
+}
