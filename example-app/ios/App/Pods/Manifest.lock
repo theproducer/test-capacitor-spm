@@ -10,23 +10,23 @@ PODS:
     - Capacitor
 
 DEPENDENCIES:
-  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
-  - "CapacitorCamera (from `../../node_modules/@capacitor/camera`)"
-  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
-  - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
-  - CoreCapacitor (from `../../node_modules/core-capacitor`)
+  - "Capacitor (from `../../../node_modules/.pnpm/@capacitor+ios@4.1.0_@capacitor+core@4.1.0/node_modules/@capacitor/ios`)"
+  - "CapacitorCamera (from `../../../node_modules/.pnpm/@capacitor+camera@4.1.0_@capacitor+core@4.1.0/node_modules/@capacitor/camera`)"
+  - "CapacitorCordova (from `../../../node_modules/.pnpm/@capacitor+ios@4.1.0_@capacitor+core@4.1.0/node_modules/@capacitor/ios`)"
+  - "CapacitorSplashScreen (from `../../../node_modules/.pnpm/@capacitor+splash-screen@4.0.1_@capacitor+core@4.1.0/node_modules/@capacitor/splash-screen`)"
+  - CoreCapacitor (from `../../../core-capacitor`)
 
 EXTERNAL SOURCES:
   Capacitor:
-    :path: "../../node_modules/@capacitor/ios"
+    :path: "../../../node_modules/.pnpm/@capacitor+ios@4.1.0_@capacitor+core@4.1.0/node_modules/@capacitor/ios"
   CapacitorCamera:
-    :path: "../../node_modules/@capacitor/camera"
+    :path: "../../../node_modules/.pnpm/@capacitor+camera@4.1.0_@capacitor+core@4.1.0/node_modules/@capacitor/camera"
   CapacitorCordova:
-    :path: "../../node_modules/@capacitor/ios"
+    :path: "../../../node_modules/.pnpm/@capacitor+ios@4.1.0_@capacitor+core@4.1.0/node_modules/@capacitor/ios"
   CapacitorSplashScreen:
-    :path: "../../node_modules/@capacitor/splash-screen"
+    :path: "../../../node_modules/.pnpm/@capacitor+splash-screen@4.0.1_@capacitor+core@4.1.0/node_modules/@capacitor/splash-screen"
   CoreCapacitor:
-    :path: "../../node_modules/core-capacitor"
+    :path: "../../../core-capacitor"
 
 SPEC CHECKSUMS:
   Capacitor: 525c8f270214dea07bc75b5ca9dc10ac3c0f38d4
@@ -35,6 +35,6 @@ SPEC CHECKSUMS:
   CapacitorSplashScreen: 4fc967486a75ae5ef6f0fe154f60f68fd83e5ac3
   CoreCapacitor: 9cc6cd6f6b0fcec60d8275d4a4680d363977d83f
 
-PODFILE CHECKSUM: 2907ada432ba49b1918439d6e505ed8daed39081
+PODFILE CHECKSUM: 28b7f04f133b925b029b54e031bd82502238cadb
 
 COCOAPODS: 1.11.3

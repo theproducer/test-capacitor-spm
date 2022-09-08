@@ -1,0 +1,12 @@
+{
+  "name": "core-swift",
+  "version": "1.0.0",
+  "description": "A description of this package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sh ./scripts/make_xcframework.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}

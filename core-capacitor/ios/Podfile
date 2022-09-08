@@ -9,7 +9,6 @@ end
 
 target 'Plugin' do
   capacitor_pods
-  pod 'CoreSwift', :path => '../node_modules/core-swift'
 end
 
 target 'PluginTests' do
