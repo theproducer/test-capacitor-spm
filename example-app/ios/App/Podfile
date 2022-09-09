@@ -9,11 +9,12 @@ use_frameworks!
 install! 'cocoapods', :disable_input_output_paths => true
 
 def capacitor_pods
-  pod 'Capacitor', :path => '../../../node_modules/.pnpm/@capacitor+ios@4.1.0_@capacitor+core@4.1.0/node_modules/@capacitor/ios'
-  pod 'CapacitorCordova', :path => '../../../node_modules/.pnpm/@capacitor+ios@4.1.0_@capacitor+core@4.1.0/node_modules/@capacitor/ios'
-  pod 'CapacitorCamera', :path => '../../../node_modules/.pnpm/@capacitor+camera@4.1.0_@capacitor+core@4.1.0/node_modules/@capacitor/camera'
-  pod 'CapacitorSplashScreen', :path => '../../../node_modules/.pnpm/@capacitor+splash-screen@4.0.1_@capacitor+core@4.1.0/node_modules/@capacitor/splash-screen'
+  pod 'Capacitor', :path => '../../../node_modules/.pnpm/@capacitor+ios@4.2.0_@capacitor+core@4.2.0/node_modules/@capacitor/ios'
+  pod 'CapacitorCordova', :path => '../../../node_modules/.pnpm/@capacitor+ios@4.2.0_@capacitor+core@4.2.0/node_modules/@capacitor/ios'
+  pod 'CapacitorCamera', :path => '../../../node_modules/.pnpm/@capacitor+camera@4.1.0_@capacitor+core@4.2.0/node_modules/@capacitor/camera'
+  pod 'CapacitorSplashScreen', :path => '../../../node_modules/.pnpm/@capacitor+splash-screen@4.0.1_@capacitor+core@4.2.0/node_modules/@capacitor/splash-screen'
   pod 'CoreCapacitor', :path => '../../../core-capacitor'
+  pod 'CoreSwift', :path => '../../../core-swift'
 end
 
 target 'App' do

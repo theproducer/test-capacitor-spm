@@ -25,10 +25,10 @@ importers:
     dependencies:
       core-swift: link:../core-swift
     devDependencies:
-      '@capacitor/android': 4.1.0_@capacitor+core@4.1.0
-      '@capacitor/core': 4.1.0
+      '@capacitor/android': 4.2.0_@capacitor+core@4.2.0
+      '@capacitor/core': 4.2.0
       '@capacitor/docgen': 0.0.18
-      '@capacitor/ios': 4.1.0_@capacitor+core@4.1.0
+      '@capacitor/ios': 4.2.0_@capacitor+core@4.2.0
       '@ionic/eslint-config': 0.3.0_j5k3gtgvc7l7uexttprsfsq27m
       '@ionic/prettier-config': 1.0.1_prettier@2.3.2
       '@ionic/swiftlint-config': 1.1.2
@@ -51,15 +51,17 @@ importers:
       '@capacitor/ios': ^4.0.0
       '@capacitor/splash-screen': latest
       core-capacitor: workspace:*
+      core-swift: workspace:*
       vite: ^2.9.13
     dependencies:
-      '@capacitor/camera': 4.1.0_@capacitor+core@4.1.0
-      '@capacitor/core': 4.1.0
-      '@capacitor/ios': 4.1.0_@capacitor+core@4.1.0
-      '@capacitor/splash-screen': 4.0.1_@capacitor+core@4.1.0
+      '@capacitor/camera': 4.1.0_@capacitor+core@4.2.0
+      '@capacitor/core': 4.2.0
+      '@capacitor/ios': 4.2.0_@capacitor+core@4.2.0
+      '@capacitor/splash-screen': 4.0.1_@capacitor+core@4.2.0
       core-capacitor: link:../core-capacitor
+      core-swift: link:../core-swift
     devDependencies:
-      '@capacitor/cli': 4.1.0
+      '@capacitor/cli': 4.2.0
       vite: 2.9.15
 
 packages:
@@ -91,24 +93,24 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@capacitor/android/4.1.0_@capacitor+core@4.1.0:
-    resolution: {integrity: sha512-aYHvpYVlS6WC+bG9jJfwqgHMxTw3e8f3taNnl/y9qCjglmMmtFcZWFAVLlOleVK4Q7olSirqjx37f0ppvxRTLg==}
+  /@capacitor/android/4.2.0_@capacitor+core@4.2.0:
+    resolution: {integrity: sha512-LWZhM31DoQuNSW8ZGslJ8gZfOAZS2A5TLq30HP1bn0OQTJGvOFIizQysraVRSOOq5FRptykf2nZWu6WEwoKMlA==}
     peerDependencies:
       '@capacitor/core': ^4.0.0
     dependencies:
-      '@capacitor/core': 4.1.0
+      '@capacitor/core': 4.2.0
     dev: true
 
-  /@capacitor/camera/4.1.0_@capacitor+core@4.1.0:
+  /@capacitor/camera/4.1.0_@capacitor+core@4.2.0:
     resolution: {integrity: sha512-MgsE4O/J/3dzLeTQw6PnVYXQzyfVMSLknyG/2Lk+H8Hix5i+vLmHtr2YHQoM04IwC0xtdw0rAMJCl9NH6SpseQ==}
     peerDependencies:
       '@capacitor/core': ^4.0.0
     dependencies:
-      '@capacitor/core': 4.1.0
+      '@capacitor/core': 4.2.0
     dev: false
 
-  /@capacitor/cli/4.1.0:
-    resolution: {integrity: sha512-SkMtohfjZS0tJdCtoqugHQIYJ4DowjXk4yQzDFXN3MnhjAKEQmB7QcZY5R8o9NoPMx0ngw2Bzm00e7RdyERvzg==}
+  /@capacitor/cli/4.2.0:
+    resolution: {integrity: sha512-34L/BoDe3BmWBdrXRoF7lszT27ho6ikMdCeMePohU+cEn4ceqiURN7tnPZRyUlpc/1TO+d8d+qb1QQQSTq2oPA==}
     engines: {node: '>=12.4.0'}
     hasBin: true
     dependencies:
@@ -133,8 +135,8 @@ packages:
       - supports-color
     dev: true
 
-  /@capacitor/core/4.1.0:
-    resolution: {integrity: sha512-bMYFnC5l5n11D/kLTz9TOOJfUH+nQqYRwzG7h5h4AXIm8aFxH5ZY3iFlDZd7R4xcyrlnfxzfoooSH9trPjRBLA==}
+  /@capacitor/core/4.2.0:
+    resolution: {integrity: sha512-kHKn6693Yt9TWfuJ0Q+fyxYCpYAvVMKdu3t500seMEfdgNlF6BGaX5GbOnXkU4cnM9p+sIhRiwXv8Iqwm0E+NA==}
     dependencies:
       tslib: 2.4.0
 
@@ -150,19 +152,19 @@ packages:
       typescript: 4.2.4
     dev: true
 
-  /@capacitor/ios/4.1.0_@capacitor+core@4.1.0:
-    resolution: {integrity: sha512-zkv48Xc5QwdL7TIT4YpXwgISrA5Cuy59KyN+uq3ovr+L/y5SgtKAOg7pATRBYT7CFgFLqkey/PQKcTjbcxhyaA==}
+  /@capacitor/ios/4.2.0_@capacitor+core@4.2.0:
+    resolution: {integrity: sha512-YOncOJHMB1QhgmWBk3Ml8IT+KoN131zlmtCBtx9Szzc6/LvzG/NMojVqfl996k37gRw9sYHrvNP01sn22IijSA==}
     peerDependencies:
-      '@capacitor/core': ^4.0.0
+      '@capacitor/core': ^4.1.0
     dependencies:
-      '@capacitor/core': 4.1.0
+      '@capacitor/core': 4.2.0
 
-  /@capacitor/splash-screen/4.0.1_@capacitor+core@4.1.0:
+  /@capacitor/splash-screen/4.0.1_@capacitor+core@4.2.0:
     resolution: {integrity: sha512-7hklUx69aZDonuLP1R5X4ZTGgZLwX8RTj9/3U1905Kz/XflcT7Rhighbad+uZBaOU+L/8Vm6Y3RlR3rFj4ELVA==}
     peerDependencies:
       '@capacitor/core': ^4.0.0
     dependencies:
-      '@capacitor/core': 4.1.0
+      '@capacitor/core': 4.2.0
     dev: false
 
   /@esbuild/linux-loong64/0.14.54:
@@ -1297,8 +1299,8 @@ packages:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
     dev: true
 
-  /fast-glob/3.2.11:
-    resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
+  /fast-glob/3.2.12:
+    resolution: {integrity: sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==}
     engines: {node: '>=8.6.0'}
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -1461,7 +1463,7 @@ packages:
     dependencies:
       array-union: 2.1.0
       dir-glob: 3.0.1
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       ignore: 5.2.0
       merge2: 1.4.1
       slash: 3.0.0

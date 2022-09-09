@@ -181,6 +181,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CapacitorCordova/Cordova.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CapacitorSplashScreen/CapacitorSplashScreen.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CoreCapacitor/CoreCapacitor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CoreSwift/CoreSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Capacitor/Capacitor.framework"
@@ -188,6 +189,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CapacitorCordova/Cordova.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CapacitorSplashScreen/CapacitorSplashScreen.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CoreCapacitor/CoreCapacitor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CoreSwift/CoreSwift.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

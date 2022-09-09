@@ -19,5 +19,6 @@
     ]
   },
   "swift_versions": "5.1",
+  "vendored_frameworks": "node_modules/core-swift/CoreSwift.xcframework",
   "swift_version": "5.1"
 }

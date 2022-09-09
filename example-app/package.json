@@ -17,7 +17,8 @@
     "@capacitor/core": "latest",
     "@capacitor/ios": "^4.0.0",
     "@capacitor/splash-screen": "latest",
-    "core-capacitor": "workspace:*"
+    "core-capacitor": "workspace:*",
+    "core-swift": "workspace:*"
   },
   "devDependencies": {
     "@capacitor/cli": "latest",

@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "description": "A description of this package.",
   "main": "index.js",
+  "files": [
+    "CoreSwift.xcframework",
+    "CoreSwift/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sh ./scripts/make_xcframework.sh"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "capacitor": {
+    "ios": {
+      "src": "CoreSwift/CoreSwift"
+    }
+  }
 }

@@ -1,0 +1,11 @@
+framework module CoreSwift {
+  umbrella header "CoreSwift.h"
+
+  export *
+  module * { export * }
+}
+
+module CoreSwift.Swift {
+    header "CoreSwift-Swift.h"
+    requires objc
+}

@@ -1,22 +1,26 @@
-xcodebuild -scheme core-swift -destination "generic/platform=iOS" -sdk iphoneos -configuration Release ARCHS="x86_64 arm64" BUILD_DIR="./Build"
+[ -d "./CoreSwift.xcframework" ] && rm -rf ./CoreSwift.xcframework
 
-cd ./Build/Release-iphoneos
+cd ./CoreSwift
 
-ar -crs libCoreSwift.a core-swift.o
+xcodebuild archive \
+-scheme CoreSwift \
+-configuration Release \
+-destination 'generic/platform=iOS' \
+-archivePath './build/CoreSwift.framework-iphoneos.xcarchive' \
+SKIP_INSTALL=NO \
+BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
 
-cd ../../
-
-xcodebuild -scheme core-swift -destination "generic/platform=iOS Simulator" -sdk iphonesimulator -configuration Release ARCHS="arm64" BUILD_DIR="./Build"
-
-cd ./Build/Release-iphonesimulator
-
-ar -crs libCoreSwift.a core-swift.o
-
-cd ../../
+xcodebuild archive \
+-scheme CoreSwift \
+-configuration Release \
+-destination 'generic/platform=iOS Simulator' \
+-archivePath './build/CoreSwift.framework-iphonesimulator.xcarchive' \
+SKIP_INSTALL=NO \
+BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
 
 xcodebuild -create-xcframework \
- -library "./Build/Release-iphoneos/libCoreSwift.a" \
- -library "./Build/Release-iphoneos/libCoreSwift.a" \
- -output "./CoreSwift.xcframework"
+-framework './build/CoreSwift.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/CoreSwift.framework' \
+-framework './build/CoreSwift.framework-iphoneos.xcarchive/Products/Library/Frameworks/CoreSwift.framework' \
+-output '../CoreSwift.xcframework'
 
-rm -rf ./Build
+rm -rf ./build
